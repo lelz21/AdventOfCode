@@ -22,7 +22,7 @@ def exec(fileName: str) -> None:
     synchronizing = 0
     iterations = 0
     # for counter in range(100):
-    while (synchronizing < size):
+    while synchronizing < size:
         #Step 1:
         v = set()
         q = deque()
