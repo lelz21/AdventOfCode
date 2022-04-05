@@ -3,9 +3,6 @@ import statistics
 from math import comb    
 import sys
 
-def dist(n1: int, n2: int) -> int:
-    return comb(abs(n1 - n2) + 1, 2)
-
 def exec(fileName: str) -> None:
     file = open(fileName, "r")
     l = [int(x) for x in file.readline().split(",")]
