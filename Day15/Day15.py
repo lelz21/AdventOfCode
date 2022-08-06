@@ -23,7 +23,7 @@ def make5x5(mat: np.matrix) -> np.matrix:
 def exec(fileName: str) -> None:
     
     mat = np.loadtxt(fileName, int)
-    mat = make5x5(mat)
+    # mat = make5x5(mat)
     # visited = np.zeros(mat.shape)
     TDV = np.ones(mat.shape, int) * np.inf
     TDV[0][0] = 0
